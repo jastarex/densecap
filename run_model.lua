@@ -57,7 +57,7 @@ cmd:option('-output_vis_dir', 'vis/data')
 
 -- Misc
 cmd:option('-gpu', 0)
-cmd:option('-use_cudnn', 1)
+cmd:option('-use_cudnn', 0)
 local opt = cmd:parse(arg)
 
 
